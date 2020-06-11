@@ -1,0 +1,28 @@
+{
+  "name": "@multiformats/murmur3",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pre:test": "standard",
+    "test:node": "hundreds mocha test.js",
+    "test:browser": "polendina --cleanup test.js",
+    "test": "npm run pre:test && npm run test:node && npm run test:browser",
+    "coverage": "c8 --reporter=html mocha test.js && npx st -d coverage -p 8080"
+  },
+  "keywords": [],
+  "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
+  "license": "(Apache-2.0 AND MIT)",
+  "dependencies": {
+    "c8": "^7.2.0",
+    "murmurhash3js-revisited": "^3.0.0"
+  },
+  "devDependencies": {
+    "hundreds": "0.0.4",
+    "mocha": "^8.0.1",
+    "multiformats": "^1.0.1",
+    "polendina": "^1.0.0",
+    "standard": "^14.3.4"
+  }
+}
