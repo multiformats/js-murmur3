@@ -20,16 +20,15 @@
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
   "license": "(Apache-2.0 AND MIT)",
   "dependencies": {
-    "c8": "^7.2.0",
     "murmurhash3js-revisited": "^3.0.0"
   },
   "devDependencies": {
+    "c8": "^7.3.0",
     "globby": "^11.0.1",
-    "hundreds": "0.0.7",
-    "mocha": "^8.0.1",
-    "multiformats": "^1.1.9",
-    "polendina": "^1.0.0",
-    "rollup": "^2.18.0",
+    "hundreds": "0.0.8",
+    "mocha": "^8.1.1",
+    "multiformats": "^3.0.0",
+    "polendina": "^1.1.0",
     "standard": "^14.3.4"
   }
 }

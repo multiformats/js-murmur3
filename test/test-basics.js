@@ -1,7 +1,7 @@
 /* globals describe, it */
 import main from '@multiformats/murmur3'
 import assert from 'assert'
-import multiformats from 'multiformats/basics.js'
+import multiformats from 'multiformats/basics'
 const test = it
 const same = assert.deepStrictEqual
 
