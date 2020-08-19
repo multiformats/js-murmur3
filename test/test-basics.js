@@ -1,5 +1,5 @@
 /* globals describe, it */
-import main from '../index.js'
+import main from '@multiformats/murmur3'
 import assert from 'assert'
 import multiformats from 'multiformats/basics.js'
 const test = it
