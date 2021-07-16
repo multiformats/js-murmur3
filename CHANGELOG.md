@@ -1,3 +1,10 @@
+### [1.0.1](https://github.com/multiformats/js-murmur3/compare/v1.0.0...v1.0.1) (2021-07-16)
+
+
+### Trivial Changes
+
+* **deps:** bump actions/setup-node from 2.1.5 to 2.2.0 ([e9a9be5](https://github.com/multiformats/js-murmur3/commit/e9a9be57e13fc25499d5c6f2265f5a48a03f304d))
+
 ## [1.0.0](https://github.com/multiformats/js-murmur3/compare/v0.0.10...v1.0.0) (2021-07-16)
 
 
