@@ -1,3 +1,10 @@
+### [1.0.3](https://github.com/multiformats/js-murmur3/compare/v1.0.2...v1.0.3) (2021-08-20)
+
+
+### Bug Fixes
+
+* add types field to package.json ([#7](https://github.com/multiformats/js-murmur3/issues/7)) ([4159bd0](https://github.com/multiformats/js-murmur3/commit/4159bd006406555937c3628020dbfd93a65f2c9f))
+
 ### [1.0.2](https://github.com/multiformats/js-murmur3/compare/v1.0.1...v1.0.2) (2021-08-20)
 
 
