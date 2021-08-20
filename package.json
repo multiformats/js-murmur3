@@ -49,6 +49,7 @@
     "type": "git",
     "url": "git+https://github.com/multiformats/js-murmur3.git"
   },
+  "types": "types/index.d.ts",
   "typesVersions": {
     "*": {
       "*": [
