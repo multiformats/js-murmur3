@@ -1,3 +1,10 @@
+### [1.0.5](https://github.com/multiformats/js-murmur3/compare/v1.0.4...v1.0.5) (2021-10-18)
+
+
+### Trivial Changes
+
+* **deps:** bump actions/checkout from 2.3.4 to 2.3.5 ([e005661](https://github.com/multiformats/js-murmur3/commit/e0056614ab8a94387b61545d5103f2d5e5cadb1b))
+
 ### [1.0.4](https://github.com/multiformats/js-murmur3/compare/v1.0.3...v1.0.4) (2021-09-28)
 
 
