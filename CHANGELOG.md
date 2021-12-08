@@ -1,3 +1,11 @@
+### [1.0.7](https://github.com/multiformats/js-murmur3/compare/v1.0.6...v1.0.7) (2021-12-08)
+
+
+### Trivial Changes
+
+* **deps-dev:** bump polendina from 1.1.1 to 2.0.0 ([#12](https://github.com/multiformats/js-murmur3/issues/12)) ([c41cf3a](https://github.com/multiformats/js-murmur3/commit/c41cf3a05d04d6a2bd05e621e2f020b016377562))
+* **no-release:** bump actions/setup-node from 2.4.1 to 2.5.0 ([#11](https://github.com/multiformats/js-murmur3/issues/11)) ([e889e50](https://github.com/multiformats/js-murmur3/commit/e889e50a162967d534b027bae34f84dda6331351))
+
 ### [1.0.6](https://github.com/multiformats/js-murmur3/compare/v1.0.5...v1.0.6) (2021-11-04)
 
 
