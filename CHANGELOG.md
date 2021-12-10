@@ -1,3 +1,10 @@
+### [1.0.8](https://github.com/multiformats/js-murmur3/compare/v1.0.7...v1.0.8) (2021-12-10)
+
+
+### Trivial Changes
+
+* update testing, sync with latest patterns ([16e54c6](https://github.com/multiformats/js-murmur3/commit/16e54c6c329f7f1563a8aebea700e13dc3603abf))
+
 ### [1.0.7](https://github.com/multiformats/js-murmur3/compare/v1.0.6...v1.0.7) (2021-12-08)
 
 
