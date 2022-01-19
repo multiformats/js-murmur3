@@ -9,7 +9,12 @@ export const code = 0x23
  * @returns {import('multiformats/hashes/interface').MultihashDigest<typeof code>}
  */
 export const digest = input =>
-  Digest.create(code, fromNumberTo32BitBuf(mur.x86.hash32(input)))
+  Digest.create(code, encode(input))
+
+/**
+ * @param {Uint8Array} input
+ */
+export const encode = input => fromNumberTo32BitBuf(mur.x86.hash32(input))
 
 /**
  * @param {number} number
