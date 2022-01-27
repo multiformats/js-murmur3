@@ -9,11 +9,13 @@ export const code = 0x22
  * @param {Uint8Array} input
  * @returns {import('multiformats/hashes/interface').MultihashDigest<typeof code>}
  */
-export const digest = (input) =>
-  Digest.create(code, encode(input))
+export const digest = (input) => {
+  return Digest.create(code, encode(input))
+}
 
 /**
  * @param {Uint8Array} input
  */
-export const encode = (input) =>
-  bytes.fromHex(mur.x64.hash128(input))
+export const encode = (input) => {
+  return bytes.fromHex(mur.x64.hash128(input))
+}
