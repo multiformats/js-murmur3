@@ -31,18 +31,10 @@
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
   "license": "(Apache-2.0 AND MIT)",
   "exports": {
-    ".": {
-      "import": "./index.js"
-    },
-    "./murmur32.js": {
-      "import": "./murmur32.js"
-    },
-    "./murmur128.js": {
-      "import": "./murmur128.js"
-    }
+    "import": "./index.js"
   },
   "dependencies": {
-    "multiformats": "^9.6.0",
+    "multiformats": "^9.5.4",
     "murmurhash3js-revisited": "^3.0.0"
   },
   "devDependencies": {
