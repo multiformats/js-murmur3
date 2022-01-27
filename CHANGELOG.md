@@ -1,3 +1,16 @@
+## [1.1.0](https://github.com/multiformats/js-murmur3/compare/v1.0.8...v1.1.0) (2022-01-27)
+
+
+### Features
+
+* implement sync multihash hasher and export encode methods ([#17](https://github.com/multiformats/js-murmur3/issues/17)) ([18ef28d](https://github.com/multiformats/js-murmur3/commit/18ef28df393a2b1b085608d1ad5f3869fef254c6))
+
+
+### Trivial Changes
+
+* **no-release:** bump @ipld/dag-cbor from 6.0.15 to 7.0.0 ([#14](https://github.com/multiformats/js-murmur3/issues/14)) ([9e48aea](https://github.com/multiformats/js-murmur3/commit/9e48aeaf26b27d142668550ac3fd58a4c73da16f))
+* **no-release:** bump actions/setup-node from 2.5.0 to 2.5.1 ([#15](https://github.com/multiformats/js-murmur3/issues/15)) ([cbdc44f](https://github.com/multiformats/js-murmur3/commit/cbdc44fd4da487d9cdc6feedb3093759460d91da))
+
 ### [1.0.8](https://github.com/multiformats/js-murmur3/compare/v1.0.7...v1.0.8) (2021-12-10)
 
 
