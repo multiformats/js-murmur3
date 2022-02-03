@@ -34,10 +34,10 @@
     ".": {
       "import": "./index.js"
     },
-    "./murmur32.js": {
+    "./murmur32": {
       "import": "./murmur32.js"
     },
-    "./murmur128.js": {
+    "./murmur128": {
       "import": "./murmur128.js"
     }
   },
