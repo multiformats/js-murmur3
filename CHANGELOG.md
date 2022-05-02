@@ -1,3 +1,10 @@
+### [1.1.3](https://github.com/multiformats/js-murmur3/compare/v1.1.2...v1.1.3) (2022-05-02)
+
+
+### Trivial Changes
+
+* **deps-dev:** bump mocha from 9.2.2 to 10.0.0 ([68e82a5](https://github.com/multiformats/js-murmur3/commit/68e82a53c91ebe8bd45755f457db30ca284b2928))
+
 ### [1.1.2](https://github.com/multiformats/js-murmur3/compare/v1.1.1...v1.1.2) (2022-05-02)
 
 
