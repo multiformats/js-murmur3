@@ -1,3 +1,15 @@
+### [1.1.2](https://github.com/multiformats/js-murmur3/compare/v1.1.1...v1.1.2) (2022-05-02)
+
+
+### Trivial Changes
+
+* **deps-dev:** bump polendina from 2.0.15 to 3.0.0 ([99d163e](https://github.com/multiformats/js-murmur3/commit/99d163e1407733242ac9d2b0dd1719a680119eed))
+* **no-release:** bump actions/checkout from 2.4.0 to 3 ([#22](https://github.com/multiformats/js-murmur3/issues/22)) ([c36adbb](https://github.com/multiformats/js-murmur3/commit/c36adbb5af5933c74fcabaa3f433d5df72f17aeb))
+* **no-release:** bump actions/setup-node from 2.5.1 to 3.0.0 ([#20](https://github.com/multiformats/js-murmur3/issues/20)) ([eec3d18](https://github.com/multiformats/js-murmur3/commit/eec3d18d490532739d09c68372cd67f4f3d9bb1b))
+* **no-release:** bump actions/setup-node from 3.0.0 to 3.1.0 ([#23](https://github.com/multiformats/js-murmur3/issues/23)) ([c6117ba](https://github.com/multiformats/js-murmur3/commit/c6117ba104eb18f8c508e9c2ec0f4af3cf57552a))
+* **no-release:** bump actions/setup-node from 3.1.0 to 3.1.1 ([#24](https://github.com/multiformats/js-murmur3/issues/24)) ([5741ac8](https://github.com/multiformats/js-murmur3/commit/5741ac8f0fb1a49102a6cdd4965681e49a50c760))
+* **no-release:** bump standard from 16.0.4 to 17.0.0 ([#25](https://github.com/multiformats/js-murmur3/issues/25)) ([ae55675](https://github.com/multiformats/js-murmur3/commit/ae55675239a5d410f5b9ec4d2556192c6d8b07b1))
+
 ### [1.1.1](https://github.com/multiformats/js-murmur3/compare/v1.1.0...v1.1.1) (2022-01-27)
 
 ## [1.1.0](https://github.com/multiformats/js-murmur3/compare/v1.0.8...v1.1.0) (2022-01-27)
