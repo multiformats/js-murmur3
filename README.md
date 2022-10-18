@@ -1,6 +1,23 @@
-# @multiformats/murmur3
+# @multiformats/murmur3 <!-- omit in toc -->
 
-Murmur3-32 (x86 32-bit) and Murmur3-128 (x64 128-bit) multihash hashers for [multiformats](https://github.com/multiformats/js-multiformats).
+[![multiformats.io](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://multiformats.io)
+[![codecov](https://img.shields.io/codecov/c/github/multiformats/js-murmur3.svg?style=flat-square)](https://codecov.io/gh/multiformats/js-murmur3)
+[![CI](https://img.shields.io/github/workflow/status/multiformats/js-murmur3/test%20&%20maybe%20release/master?style=flat-square)](https://github.com/multiformats/js-murmur3/actions/workflows/js-test-and-release.yml)
+
+> Multiformats Murmur3 implementations
+
+## Table of contents <!-- omit in toc -->
+
+- [Install](#install)
+- [Usage](#usage)
+- [License](#license)
+- [Contribute](#contribute)
+
+## Install
+
+```console
+$ npm i @multiformats/murmur3
+```
 
 `MultihashHashers`s are exported from this library, they produce `MultihashDigest`s. Details about these can be found in the [multiformats multihash interface definitions](https://github.com/multiformats/js-multiformats/blob/master/src/hashes/interface.ts).
 
@@ -39,9 +56,9 @@ import { murmur3128 } from '@multiformats/murmur3'
 
 Licensed under either of
 
- * Apache 2.0, ([LICENSE-APACHE](LICENSE-APACHE) / http://www.apache.org/licenses/LICENSE-2.0)
- * MIT ([LICENSE-MIT](LICENSE-MIT) / http://opensource.org/licenses/MIT)
+- Apache 2.0, ([LICENSE-APACHE](LICENSE-APACHE) / <http://www.apache.org/licenses/LICENSE-2.0>)
+- MIT ([LICENSE-MIT](LICENSE-MIT) / <http://opensource.org/licenses/MIT>)
 
-### Contribution
+## Contribute
 
 Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in the work by you, as defined in the Apache-2.0 license, shall be dual licensed as above, without any additional terms or conditions.

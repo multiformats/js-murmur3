@@ -1,6 +1,8 @@
+/* eslint-disable no-console */
+
 import * as Block from 'multiformats/block'
 import * as codec from '@ipld/dag-cbor'
-import { murmur3128 as hasher } from '@multiformats/murmur3'
+import { murmur3128 as hasher } from 'src'
 
 async function run () {
   const value = { hello: 'world' }
