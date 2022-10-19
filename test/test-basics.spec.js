@@ -1,9 +1,7 @@
 /* eslint-env mocha */
-import * as murmur3 from '@multiformats/murmur3'
-import chai from 'chai'
+import * as murmur3 from '../src/index.js'
+import { assert } from 'aegir/chai'
 import { bytes } from 'multiformats'
-
-const { assert } = chai
 
 const fixtures = [
   ['murmur3-32', 'beep boop', '2304243ddb9e'],
@@ -13,6 +11,7 @@ const fixtures = [
 describe('Digests', () => {
   for (const [name, input, expectedDigest] of fixtures) {
     it(name, async () => {
+      // @ts-expect-error cannot use string to index murmur3
       const hasher = murmur3[name.replace('-', '')]
       const hash = await hasher.digest(bytes.fromString(input))
       assert.strictEqual(hash.code, hasher.code)

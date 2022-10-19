@@ -1,6 +1,6 @@
 import { from } from 'multiformats/hashes/hasher'
 import { bytes } from 'multiformats'
-// @ts-ignore
+// @ts-expect-error no types
 import mur from 'murmurhash3js-revisited'
 
 /**
