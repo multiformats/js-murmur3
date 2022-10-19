@@ -150,7 +150,7 @@
     "lint": "aegir lint",
     "build": "aegir build",
     "release": "aegir release",
-    "test": "aegir test -t node -t browser -t webworker -t electron-main",
+    "test": "aegir test -t node",
     "test:ts": "npm run test --prefix test/ts-use",
     "test:node": "aegir test -t node --cov",
     "test:chrome": "aegir test -t browser --cov",
@@ -161,11 +161,11 @@
     "dep-check": "aegir dep-check"
   },
   "dependencies": {
-    "multiformats": "^10.0.1",
+    "multiformats": "^10.0.2",
     "murmurhash3js-revisited": "^3.0.0"
   },
   "devDependencies": {
-    "@ipld/dag-cbor": "^7.0.0",
+    "@ipld/dag-cbor": "^8.0.0",
     "aegir": "^37.5.6"
   }
 }

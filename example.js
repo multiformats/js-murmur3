@@ -2,7 +2,7 @@
 
 import * as Block from 'multiformats/block'
 import * as codec from '@ipld/dag-cbor'
-import { murmur3128 as hasher } from 'src'
+import { murmur3128 as hasher } from './src/index.js'
 
 async function run () {
   const value = { hello: 'world' }
