@@ -1,3 +1,24 @@
+## [2.0.0](https://github.com/multiformats/js-murmur3/compare/v1.1.3...v2.0.0) (2022-10-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* publish as esm-only (#36)
+
+### Features
+
+* publish as esm-only ([#36](https://github.com/multiformats/js-murmur3/issues/36)) ([b020bb4](https://github.com/multiformats/js-murmur3/commit/b020bb412fe86afc094279c90ed72f469879352b))
+
+
+### Trivial Changes
+
+* **no-release:** bump actions/setup-node from 3.1.1 to 3.2.0 ([#28](https://github.com/multiformats/js-murmur3/issues/28)) ([920c819](https://github.com/multiformats/js-murmur3/commit/920c8194cf7ee839c8f0f24fe5142f3e4ac3dc0f))
+* **no-release:** bump actions/setup-node from 3.2.0 to 3.3.0 ([#29](https://github.com/multiformats/js-murmur3/issues/29)) ([8f8ef2c](https://github.com/multiformats/js-murmur3/commit/8f8ef2cb08f31950b0d46324ecb007d911ec184c))
+* **no-release:** bump actions/setup-node from 3.3.0 to 3.4.0 ([#30](https://github.com/multiformats/js-murmur3/issues/30)) ([65102a8](https://github.com/multiformats/js-murmur3/commit/65102a89902a9df8d30df37a984aa21c85ebab5d))
+* **no-release:** bump actions/setup-node from 3.4.0 to 3.4.1 ([#31](https://github.com/multiformats/js-murmur3/issues/31)) ([a502675](https://github.com/multiformats/js-murmur3/commit/a502675fec4f203bbf1e6764d0111d6674dcc2ec))
+* **no-release:** bump actions/setup-node from 3.4.1 to 3.5.0 ([#32](https://github.com/multiformats/js-murmur3/issues/32)) ([300f888](https://github.com/multiformats/js-murmur3/commit/300f88881dea4c93af4f078cef451a4b723b26b5))
+* **no-release:** bump actions/setup-node from 3.5.0 to 3.5.1 ([#34](https://github.com/multiformats/js-murmur3/issues/34)) ([af7d6c8](https://github.com/multiformats/js-murmur3/commit/af7d6c85a533673fd84ced19c428289c470fff24))
+
 ### [1.1.3](https://github.com/multiformats/js-murmur3/compare/v1.1.2...v1.1.3) (2022-05-02)
 
 
