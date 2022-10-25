@@ -27,3 +27,9 @@ export const murmur3128 = from({
   code: 0x22,
   encode: (input) => bytes.fromHex(mur.x64.hash128(input))
 })
+
+export const murmur364 = from({
+  name: 'murmur3-x64-64',
+  code: 0x22,
+  encode: (input) => bytes.fromHex(mur.x64.hash128(input)).subarray(0, 8)
+})
