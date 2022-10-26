@@ -28,6 +28,7 @@ export const murmur3128 = from({
   encode: (input) => bytes.fromHex(mur.x64.hash128(input))
 })
 
+// A special-use 0x22 that truncates 64 bits, specifically for use in the UnixFS HAMT
 export const murmur364 = from({
   name: 'murmur3-x64-64',
   code: 0x22,
