@@ -52,6 +52,12 @@ The `murmur3-128`, multicodec code `0x22`, may be imported as:
 import { murmur3128 } from '@multiformats/murmur3'
 ```
 
+The `murmur3-x64-64` (which is first 64-bits of `murmur3-128` used in UnixFS directory sharding), multicodec code `0x22`, may be imported as:
+
+```js
+import { murmur364 } from '@multiformats/murmur3'
+```
+
 ## License
 
 Licensed under either of
