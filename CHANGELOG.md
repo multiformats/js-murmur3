@@ -1,3 +1,10 @@
+## [2.1.0](https://github.com/multiformats/js-murmur3/compare/v2.0.0...v2.1.0) (2022-11-09)
+
+
+### Features
+
+* expose murmur3-64 ([#38](https://github.com/multiformats/js-murmur3/issues/38)) ([a4032a2](https://github.com/multiformats/js-murmur3/commit/a4032a2ed4779a899be54ae6eb37dc752ec04833))
+
 ## [2.0.0](https://github.com/multiformats/js-murmur3/compare/v1.1.3...v2.0.0) (2022-10-19)
 
 
