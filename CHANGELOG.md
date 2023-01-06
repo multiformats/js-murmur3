@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/multiformats/js-murmur3/compare/v2.1.1...v2.1.2) (2023-01-06)
+
+
+### Dependencies
+
+* **dev:** bump @ipld/dag-cbor from 8.0.1 to 9.0.0 ([#44](https://github.com/multiformats/js-murmur3/issues/44)) ([102cc62](https://github.com/multiformats/js-murmur3/commit/102cc62e33557f1348298b8ccce10cd18c56c065))
+
 ## [2.1.1](https://github.com/multiformats/js-murmur3/compare/v2.1.0...v2.1.1) (2023-01-03)
 
 
