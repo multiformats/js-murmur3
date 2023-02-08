@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/multiformats/js-murmur3/compare/v2.1.2...v2.1.3) (2023-02-08)
+
+
+### Dependencies
+
+* **dev:** bump aegir from 37.12.1 to 38.1.2 ([#47](https://github.com/multiformats/js-murmur3/issues/47)) ([bed78f7](https://github.com/multiformats/js-murmur3/commit/bed78f7e38045028ccd9c781aff9b9ca39fcb4ea))
+
 ## [2.1.2](https://github.com/multiformats/js-murmur3/compare/v2.1.1...v2.1.2) (2023-01-06)
 
 
