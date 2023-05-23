@@ -1,7 +1,7 @@
 /* eslint-env mocha */
-import * as murmur3 from '../src/index.js'
 import { assert } from 'aegir/chai'
 import { bytes, varint } from 'multiformats'
+import * as murmur3 from '../src/index.js'
 
 const fixtures = [
   ['murmur3-32', 'beep boop', '2304243ddb9e'],

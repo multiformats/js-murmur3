@@ -1,7 +1,7 @@
 /* eslint-disable no-console */
 
-import * as Block from 'multiformats/block'
 import * as codec from '@ipld/dag-cbor'
+import * as Block from 'multiformats/block'
 import { murmur3128 as hasher } from './src/index.js'
 
 async function run () {
