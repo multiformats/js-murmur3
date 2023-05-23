@@ -1,3 +1,15 @@
+## [2.1.4](https://github.com/multiformats/js-murmur3/compare/v2.1.3...v2.1.4) (2023-05-23)
+
+
+### Bug Fixes
+
+* adjust new linting standards ([bc081dc](https://github.com/multiformats/js-murmur3/commit/bc081dc0b5f38fc758ae720c8d2119efe8565d2c))
+
+
+### Dependencies
+
+* **dev:** bump aegir from 38.1.8 to 39.0.8 ([20bb109](https://github.com/multiformats/js-murmur3/commit/20bb10980e3cdcd3bd54501a086c84b3427661b2))
+
 ## [2.1.3](https://github.com/multiformats/js-murmur3/compare/v2.1.2...v2.1.3) (2023-02-08)
 
 
