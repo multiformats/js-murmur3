@@ -1,3 +1,10 @@
+## [2.1.5](https://github.com/multiformats/js-murmur3/compare/v2.1.4...v2.1.5) (2023-06-19)
+
+
+### Dependencies
+
+* bump multiformats from 11.0.2 to 12.0.1 ([61b008c](https://github.com/multiformats/js-murmur3/commit/61b008c3b9b88a2dbd57130506b2d75857138757))
+
 ## [2.1.4](https://github.com/multiformats/js-murmur3/compare/v2.1.3...v2.1.4) (2023-05-23)
 
 
