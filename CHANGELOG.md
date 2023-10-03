@@ -1,3 +1,16 @@
+## [2.1.7](https://github.com/multiformats/js-murmur3/compare/v2.1.6...v2.1.7) (2023-10-03)
+
+
+### Trivial Changes
+
+* add or force update .github/workflows/js-test-and-release.yml ([775fa86](https://github.com/multiformats/js-murmur3/commit/775fa869fd4f7b3e8e1b0813de02f178c55565c7))
+* delete templates [skip ci] ([#63](https://github.com/multiformats/js-murmur3/issues/63)) ([4507d50](https://github.com/multiformats/js-murmur3/commit/4507d50cd9dd9cd733774087fcedfd602438fea4))
+
+
+### Dependencies
+
+* **dev:** bump aegir from 40.0.13 to 41.0.0 ([504d645](https://github.com/multiformats/js-murmur3/commit/504d645e007ac0be5388f1260758abcb69382c0f))
+
 ## [2.1.6](https://github.com/multiformats/js-murmur3/compare/v2.1.5...v2.1.6) (2023-08-08)
 
 
