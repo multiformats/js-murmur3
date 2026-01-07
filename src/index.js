@@ -1,7 +1,14 @@
 import { bytes } from 'multiformats'
 import { from } from 'multiformats/hashes/hasher'
-// @ts-expect-error no types
-import mur from 'murmurhash3js-revisited'
+import * as mur from './murmur.js'
+
+/**
+ * @param {bigint} value
+ * @param {number} bytes
+ */
+function bigintToHex (value, bytes) {
+  return value.toString(16).padStart(bytes * 2, '0')
+}
 
 /**
  * @param {number} number
@@ -19,18 +26,23 @@ function fromNumberTo32BitBuf (number) {
 export const murmur332 = from({
   name: 'murmur3-32',
   code: 0x23,
-  encode: (input) => fromNumberTo32BitBuf(mur.x86.hash32(input))
+  encode: (input) =>
+    fromNumberTo32BitBuf(Number(mur.murmurHash3_x86_32(input)))
 })
 
 export const murmur3128 = from({
   name: 'murmur3-128',
   code: 0x22,
-  encode: (input) => bytes.fromHex(mur.x64.hash128(input))
+  encode: (input) =>
+    bytes.fromHex(bigintToHex(mur.murmurHash3_x64_128(input), 16))
 })
 
 // A special-use 0x22 that truncates 64 bits, specifically for use in the UnixFS HAMT
 export const murmur364 = from({
   name: 'murmur3-x64-64',
   code: 0x22,
-  encode: (input) => bytes.fromHex(mur.x64.hash128(input)).subarray(0, 8)
+  encode: (input) =>
+    bytes
+      .fromHex(bigintToHex(mur.murmurHash3_x64_128(input), 16))
+      .subarray(0, 8)
 })
