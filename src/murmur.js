@@ -1,3 +1,7 @@
+/**
+ * Based on https://github.com/timepp/murmurhash
+ */
+
 /* eslint-disable default-case */
 /* eslint-disable camelcase */
 /**
