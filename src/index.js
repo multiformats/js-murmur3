@@ -1,6 +1,6 @@
 import { bytes } from 'multiformats'
 import { from } from 'multiformats/hashes/hasher'
-import * as mur from './murmur.js'
+import * as mur from './vendor/murmur.js'
 
 /**
  * @param {bigint} value
