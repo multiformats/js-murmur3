@@ -27,7 +27,7 @@ export const murmur332 = from({
   name: 'murmur3-32',
   code: 0x23,
   encode: (input) =>
-    fromNumberTo32BitBuf(Number(mur.murmurHash3_x86_32(input)))
+    fromNumberTo32BitBuf(mur.murmurHash3_x86_32(input))
 })
 
 export const murmur3128 = from({
