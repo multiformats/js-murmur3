@@ -184,7 +184,7 @@ function fmix32 (k) {
  *
  * @param {Uint8Array} key - original data
  * @param {number} [seed=0]
- * @returns {bigint} the hash value as a BigInt
+ * @returns {Uint8Array} the hash value as 16 bytes
  */
 export function murmurHash3_x64_128 (key, seed = 0) {
   let h1 = u64(seed, 0)
@@ -278,15 +278,20 @@ export function murmurHash3_x64_128 (key, seed = 0) {
   h1 = add64(h1, h2)
   h2 = add64(h2, h1)
 
-  // Convert to BigInt for return
-  return (BigInt(h1.hi) << 96n) | (BigInt(h1.lo) << 64n) | (BigInt(h2.hi) << 32n) | BigInt(h2.lo)
+  // Convert to Uint8Array (big-endian byte order)
+  return new Uint8Array([
+    (h1.hi >>> 24) & 0xff, (h1.hi >>> 16) & 0xff, (h1.hi >>> 8) & 0xff, h1.hi & 0xff,
+    (h1.lo >>> 24) & 0xff, (h1.lo >>> 16) & 0xff, (h1.lo >>> 8) & 0xff, h1.lo & 0xff,
+    (h2.hi >>> 24) & 0xff, (h2.hi >>> 16) & 0xff, (h2.hi >>> 8) & 0xff, h2.hi & 0xff,
+    (h2.lo >>> 24) & 0xff, (h2.lo >>> 16) & 0xff, (h2.lo >>> 8) & 0xff, h2.lo & 0xff
+  ])
 }
 /**
  * Generate murmurhash3 x86 128-bit hash
  *
  * @param {Uint8Array} key - original data
  * @param {number} [seed=0]
- * @returns {bigint} the hash value as a BigInt
+ * @returns {Uint8Array} the hash value as 16 bytes
  */
 export function murmurHash3_x86_128 (key, seed = 0) {
   let h1 = seed >>> 0
@@ -408,8 +413,13 @@ export function murmurHash3_x86_128 (key, seed = 0) {
   h2 = add32(h2, h1)
   h3 = add32(h3, h1)
   h4 = add32(h4, h1)
-  // Convert to BigInt for return
-  return (BigInt(h1) << 96n) | (BigInt(h2) << 64n) | (BigInt(h3) << 32n) | BigInt(h4)
+  // Convert to Uint8Array (big-endian byte order)
+  return new Uint8Array([
+    (h1 >>> 24) & 0xff, (h1 >>> 16) & 0xff, (h1 >>> 8) & 0xff, h1 & 0xff,
+    (h2 >>> 24) & 0xff, (h2 >>> 16) & 0xff, (h2 >>> 8) & 0xff, h2 & 0xff,
+    (h3 >>> 24) & 0xff, (h3 >>> 16) & 0xff, (h3 >>> 8) & 0xff, h3 & 0xff,
+    (h4 >>> 24) & 0xff, (h4 >>> 16) & 0xff, (h4 >>> 8) & 0xff, h4 & 0xff
+  ])
 }
 /**
  * Generate murmurhash3 x86 32-bit hash
