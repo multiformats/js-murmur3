@@ -1,3 +1,13 @@
+## [2.1.9](https://github.com/multiformats/js-murmur3/compare/v2.1.8...v2.1.9) (2026-01-21)
+
+### Trivial Changes
+
+* **ci:** add aegir config to ignore deps in example.js ([9cceaae](https://github.com/multiformats/js-murmur3/commit/9cceaae85b31f11c992bc4b9f8e83d1e75c6bc77))
+
+### Dependencies
+
+* **dev:** bump aegir from 41.3.5 to 42.2.5 ([03e476c](https://github.com/multiformats/js-murmur3/commit/03e476cbfa382079dc64c3b9a76f8e4bd27fe2af))
+
 ## [2.1.8](https://github.com/multiformats/js-murmur3/compare/v2.1.7...v2.1.8) (2024-01-01)
 
 
