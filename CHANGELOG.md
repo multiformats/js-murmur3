@@ -1,3 +1,9 @@
+## [2.1.10](https://github.com/multiformats/js-murmur3/compare/v2.1.9...v2.1.10) (2026-01-22)
+
+### Dependencies
+
+* **dev:** bump lodash from 4.17.21 to 4.17.23 ([28ea437](https://github.com/multiformats/js-murmur3/commit/28ea43745ac3c70cbe692a3b245b1ece39788dc9))
+
 ## [2.1.9](https://github.com/multiformats/js-murmur3/compare/v2.1.8...v2.1.9) (2026-01-21)
 
 ### Trivial Changes

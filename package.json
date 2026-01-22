@@ -1,6 +1,6 @@
 {
   "name": "@multiformats/murmur3",
-  "version": "2.1.9",
+  "version": "2.1.10",
   "description": "Multiformats Murmur3 implementations",
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com> (https://www.mikealrogers.com/)",
   "license": "Apache-2.0 OR MIT",
