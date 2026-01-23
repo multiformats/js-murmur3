@@ -69,8 +69,8 @@ function mul32 (a, b) {
  * @returns {u64}
  */
 function rotl64 (x, n) {
-  if (n === 0) return x
-  if (n === 32) return { lo: x.hi, hi: x.lo }
+  if (n === 0) { return x }
+  if (n === 32) { return { lo: x.hi, hi: x.lo } }
   if (n < 32) {
     const lo = ((x.lo << n) | (x.hi >>> (32 - n))) >>> 0
     const hi = ((x.hi << n) | (x.lo >>> (32 - n))) >>> 0
@@ -97,7 +97,7 @@ function xor64 (a, b) {
  * @returns {u64}
  */
 function shr64 (x, n) {
-  if (n === 0) return x
+  if (n === 0) { return x }
   if (n < 32) {
     const lo = ((x.lo >>> n) | (x.hi << (32 - n))) >>> 0
     const hi = x.hi >>> n
@@ -183,7 +183,7 @@ function fmix32 (k) {
  * Generate murmurhash3 x64 128-bit hash
  *
  * @param {Uint8Array} key - original data
- * @param {number} [seed=0]
+ * @param {number} [seed] - seed value (defaults to 0)
  * @returns {Uint8Array} the hash value as 16 bytes
  */
 export function murmurHash3_x64_128 (key, seed = 0) {
@@ -290,7 +290,7 @@ export function murmurHash3_x64_128 (key, seed = 0) {
  * Generate murmurhash3 x86 128-bit hash
  *
  * @param {Uint8Array} key - original data
- * @param {number} [seed=0]
+ * @param {number} [seed] - seed value (defaults to 0)
  * @returns {Uint8Array} the hash value as 16 bytes
  */
 export function murmurHash3_x86_128 (key, seed = 0) {
@@ -425,7 +425,7 @@ export function murmurHash3_x86_128 (key, seed = 0) {
  * Generate murmurhash3 x86 32-bit hash
  *
  * @param {Uint8Array} key - original data
- * @param {number} [seed=0]
+ * @param {number} [seed] - seed value (defaults to 0)
  * @returns {number} the hash value as a number
  */
 export function murmurHash3_x86_32 (key, seed = 0) {
