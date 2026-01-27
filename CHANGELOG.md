@@ -1,3 +1,13 @@
+## [2.2.0](https://github.com/multiformats/js-murmur3/compare/v2.1.10...v2.2.0) (2026-01-27)
+
+### Features
+
+* vendor a smaller & faster murmur implementation ([#79](https://github.com/multiformats/js-murmur3/issues/79)) ([9e36fde](https://github.com/multiformats/js-murmur3/commit/9e36fde06184d08f444fac5d0010a296a6ebf7e7))
+
+### Trivial Changes
+
+* delete package-lock.json ([961fbde](https://github.com/multiformats/js-murmur3/commit/961fbde09a410f664b10fc18e5ceaba0ea958acc))
+
 ## [2.1.10](https://github.com/multiformats/js-murmur3/compare/v2.1.9...v2.1.10) (2026-01-22)
 
 ### Dependencies
