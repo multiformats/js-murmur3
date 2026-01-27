@@ -161,8 +161,7 @@
     "dep-check": "aegir dep-check"
   },
   "dependencies": {
-    "multiformats": "^13.0.0",
-    "murmurhash3js-revisited": "^3.0.0"
+    "multiformats": "^13.0.0"
   },
   "devDependencies": {
     "@ipld/dag-cbor": "^9.0.0",

@@ -39,7 +39,10 @@ describe('Hashers', () => {
     const hash = await murmur3.murmur3128.digest(fixture)
     assert.strictEqual(murmur3.murmur3128.code, 0x22)
     assert.strictEqual(hash.code, murmur3.murmur3128.code)
-    assert.strictEqual(bytes.toHex(hash.bytes), '2210df48782b0b497325f116d6589ef4c112')
+    assert.strictEqual(
+      bytes.toHex(hash.bytes),
+      '2210df48782b0b497325f116d6589ef4c112'
+    )
 
     const [code, offset] = varint.decode(hash.bytes)
     assert.equal(code, murmur3.murmur3128.code)
@@ -52,7 +55,7 @@ describe('Hashers', () => {
     assert.strictEqual(hash.code, murmur3.murmur364.code)
     assert.deepEqual(
       [...(await murmur3.murmur3128.encode(fixture)).slice(0, 8)],
-      [...await murmur3.murmur364.encode(fixture)]
+      [...(await murmur3.murmur364.encode(fixture))]
     )
 
     const [code, offset] = varint.decode(hash.bytes)
