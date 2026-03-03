@@ -1,3 +1,9 @@
+## [2.2.2](https://github.com/multiformats/js-murmur3/compare/v2.2.1...v2.2.2) (2026-03-03)
+
+### Dependencies
+
+* bump tar and npm ([#85](https://github.com/multiformats/js-murmur3/issues/85)) ([c7c73f6](https://github.com/multiformats/js-murmur3/commit/c7c73f659b64d1ed7fd1020054a0d80421edf8e7))
+
 ## [2.2.1](https://github.com/multiformats/js-murmur3/compare/v2.2.0...v2.2.1) (2026-03-03)
 
 ### Dependencies
