@@ -1,3 +1,9 @@
+## [2.2.1](https://github.com/multiformats/js-murmur3/compare/v2.2.0...v2.2.1) (2026-03-03)
+
+### Dependencies
+
+* **dev:** bump minimatch from 3.1.2 to 3.1.5 ([#83](https://github.com/multiformats/js-murmur3/issues/83)) ([29ce888](https://github.com/multiformats/js-murmur3/commit/29ce8883e27f04c767c053ef9853a82219d34137))
+
 ## [2.2.0](https://github.com/multiformats/js-murmur3/compare/v2.1.10...v2.2.0) (2026-01-27)
 
 ### Features
