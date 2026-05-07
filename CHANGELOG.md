@@ -1,3 +1,13 @@
+## [2.2.3](https://github.com/multiformats/js-murmur3/compare/v2.2.2...v2.2.3) (2026-05-07)
+
+### Trivial Changes
+
+* remove package-lock ([#86](https://github.com/multiformats/js-murmur3/issues/86)) ([28ac804](https://github.com/multiformats/js-murmur3/commit/28ac8044e59c9c681c6f03ca2b5926f1d02c2165))
+
+### Dependencies
+
+* **dev:** bump aegir from 47.2.0 to 48.0.1 ([#87](https://github.com/multiformats/js-murmur3/issues/87)) ([a869695](https://github.com/multiformats/js-murmur3/commit/a86969586dcf61854d4e6caec46140686a6bc444))
+
 ## [2.2.2](https://github.com/multiformats/js-murmur3/compare/v2.2.1...v2.2.2) (2026-03-03)
 
 ### Dependencies
