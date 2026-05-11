@@ -1,3 +1,13 @@
+## [2.2.4](https://github.com/multiformats/js-murmur3/compare/v2.2.3...v2.2.4) (2026-05-11)
+
+### Bug Fixes
+
+* make types work for latest multiformats update ([41f94c3](https://github.com/multiformats/js-murmur3/commit/41f94c3833f29bece2cb15bb29abe33e59f60f1c))
+
+### Dependencies
+
+* bump multiformats from 13.4.2 to 14.0.0 ([b29a79a](https://github.com/multiformats/js-murmur3/commit/b29a79a6982f0e205b06ca02f352691d441430ad))
+
 ## [2.2.3](https://github.com/multiformats/js-murmur3/compare/v2.2.2...v2.2.3) (2026-05-07)
 
 ### Trivial Changes
