@@ -184,7 +184,7 @@ function fmix32 (k) {
  *
  * @param {Uint8Array} key - original data
  * @param {number} [seed] - seed value (defaults to 0)
- * @returns {Uint8Array} the hash value as 16 bytes
+ * @returns {Uint8Array<ArrayBuffer>} the hash value as 16 bytes
  */
 export function murmurHash3_x64_128 (key, seed = 0) {
   let h1 = u64(seed, 0)
@@ -291,7 +291,7 @@ export function murmurHash3_x64_128 (key, seed = 0) {
  *
  * @param {Uint8Array} key - original data
  * @param {number} [seed] - seed value (defaults to 0)
- * @returns {Uint8Array} the hash value as 16 bytes
+ * @returns {Uint8Array<ArrayBuffer>} the hash value as 16 bytes
  */
 export function murmurHash3_x86_128 (key, seed = 0) {
   let h1 = seed >>> 0
