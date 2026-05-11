@@ -1,3 +1,9 @@
+## [2.2.5](https://github.com/multiformats/js-murmur3/compare/v2.2.4...v2.2.5) (2026-05-11)
+
+### Dependencies
+
+* **dev:** bump aegir from 48.0.1 to 48.0.4 ([#89](https://github.com/multiformats/js-murmur3/issues/89)) ([7214c7f](https://github.com/multiformats/js-murmur3/commit/7214c7f382581adff1ded9ff19d1c0cb87e24a0a))
+
 ## [2.2.4](https://github.com/multiformats/js-murmur3/compare/v2.2.3...v2.2.4) (2026-05-11)
 
 ### Bug Fixes
