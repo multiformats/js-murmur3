@@ -3,7 +3,7 @@ import * as mur from './vendor/murmur.js'
 
 /**
  * @param {number} number
- * @returns {Uint8Array}
+ * @returns {Uint8Array<ArrayBuffer>}
  */
 function fromNumberTo32BitBuf (number) {
   const bytes = new Array(4)
