@@ -164,7 +164,7 @@
     "multiformats": "^14.0.0"
   },
   "devDependencies": {
-    "@ipld/dag-cbor": "^9.0.0",
+    "@ipld/dag-cbor": "^10.0.1",
     "aegir": "^48.0.1"
   }
 }
