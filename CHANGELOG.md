@@ -1,3 +1,13 @@
+## [2.2.6](https://github.com/multiformats/js-murmur3/compare/v2.2.5...v2.2.6) (2026-07-04)
+
+### Dependencies
+
+* bump multiformats from 14.0.0 to 14.0.2 ([#96](https://github.com/multiformats/js-murmur3/issues/96)) ([9af1a58](https://github.com/multiformats/js-murmur3/commit/9af1a583e8b251666807ce57b44db274e34c24ba))
+* bump multiformats from 14.0.2 to 14.0.3 ([#99](https://github.com/multiformats/js-murmur3/issues/99)) ([d07f884](https://github.com/multiformats/js-murmur3/commit/d07f8848b1a0dd8329a073ba258101f322852afe))
+* bump multiformats from 14.0.3 to 14.0.4 ([#100](https://github.com/multiformats/js-murmur3/issues/100)) ([f727fcf](https://github.com/multiformats/js-murmur3/commit/f727fcfe69d31a67c1e767552f16da5467b8e38c))
+* bump tar and npm ([#95](https://github.com/multiformats/js-murmur3/issues/95)) ([305b6fb](https://github.com/multiformats/js-murmur3/commit/305b6fbe20f405ec25440833c07bf2108543ac32))
+* **dev:** bump @ipld/dag-cbor from 9.2.6 to 10.0.1 ([#90](https://github.com/multiformats/js-murmur3/issues/90)) ([752e0d4](https://github.com/multiformats/js-murmur3/commit/752e0d45f0fb6b6a5af3997929a3732e40a992b2))
+
 ## [2.2.5](https://github.com/multiformats/js-murmur3/compare/v2.2.4...v2.2.5) (2026-05-11)
 
 ### Dependencies
