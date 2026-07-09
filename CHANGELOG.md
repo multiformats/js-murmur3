@@ -1,3 +1,9 @@
+## [2.2.8](https://github.com/multiformats/js-murmur3/compare/v2.2.7...v2.2.8) (2026-07-09)
+
+### Bug Fixes
+
+* update project config ([#102](https://github.com/multiformats/js-murmur3/issues/102)) ([8c0c8dc](https://github.com/multiformats/js-murmur3/commit/8c0c8dcefb4104738b35446ded6f3a0ccc569a65))
+
 ## [2.2.7](https://github.com/multiformats/js-murmur3/compare/v2.2.6...v2.2.7) (2026-07-07)
 
 ### Dependencies
