@@ -1,4 +1,3 @@
-/* eslint-env mocha */
 import { assert } from 'aegir/chai'
 import { bytes, varint } from 'multiformats'
 import * as murmur3 from '../src/index.js'

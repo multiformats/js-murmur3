@@ -12,6 +12,10 @@
   "bugs": {
     "url": "https://github.com/multiformats/js-murmur3/issues"
   },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "keywords": [
     "hash",
     "ipfs",
@@ -20,10 +24,6 @@
     "multihash",
     "murmur3"
   ],
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=7.0.0"
-  },
   "type": "module",
   "types": "./dist/src/index.d.ts",
   "typesVersions": {
@@ -51,13 +51,8 @@
   "exports": {
     ".": {
       "types": "./dist/src/index.d.ts",
-      "import": "./src/index.js"
-    }
-  },
-  "eslintConfig": {
-    "extends": "ipfs",
-    "parserOptions": {
-      "sourceType": "module"
+      "import": "./src/index.js",
+      "module-sync": "./src/index.js"
     }
   },
   "release": {
@@ -142,13 +137,22 @@
       "@semantic-release/changelog",
       "@semantic-release/npm",
       "@semantic-release/github",
-      "@semantic-release/git"
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "CHANGELOG.md",
+            "package.json"
+          ]
+        }
+      ]
     ]
   },
   "scripts": {
     "clean": "aegir clean",
     "lint": "aegir lint",
     "build": "aegir build",
+    "docs": "aegir docs",
     "release": "aegir release",
     "test": "aegir test",
     "test:ts": "npm run test --prefix test/ts-use",

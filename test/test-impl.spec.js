@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-/* eslint-env mocha */
+
 import { assert } from 'aegir/chai'
 import { toHex } from 'multiformats/bytes'
 import {
